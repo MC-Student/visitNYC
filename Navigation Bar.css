@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+nav {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    width: 100%;
+    float: left;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px 100px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: agency fb, sans-serif;
+    background-color: black;
+    margin: -40px -20px 10px -20px;
+}

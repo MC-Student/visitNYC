@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*Styling for the navigation bar*/
+nav {
+    padding: 0;
+    margin-bottom: 60px;
+    width: 100%;
+    background-color: black;
+    float: left;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: agency fb, sans-serif;
+    background-color: black;
+    width: 20%;
+}
+
+nav + * {
+    clear: left;
+}
+
+/*Styling for the logo*/
+table#logo{
+    position: absolute;
+    right: 20px;
+    top: 115px;
+}

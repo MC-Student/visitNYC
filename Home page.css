@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*General styling*/
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-padding: 0;
+    scroll-margin: 0;
+    min-height: 100%;
+    background-size: cover;
+    background-image: url("../Images/nyc6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll
+}
+
+/*Styling for the homepage title*/
+div > h1 {
+    padding-left: 75px;
+    padding-top: 10px;
+    font-family: agency fb, sans-serif;
+    font-size: 5em;
+}
+
+/*Styling for the time section*/
+#timeHeading{
+    position: absolute;
+    right: 20px;
+    top: 160px;
+    width: 500px;
+    height: 200px;
+}
+#timeNow{
+    position: absolute;
+    right: 20px;
+    top: 190px;
+    width: 500px;
+    height: 200px;
+}
+#timeHeading, #timeNow{
+    font-size: 25px;
+    font-family: agency fb, sans-serif;
+    text-align: right;
+}
