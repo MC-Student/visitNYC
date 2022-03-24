@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resources</title>
+    <link href="css/Pages.css" rel="stylesheet">
+    <style>
+        ul > * {
+            font-family: agency fb, sans-serif;
+            font-size: 1.5em;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        li > a:any-link {
+            color: black;
+            text-decoration: none;
+        }
+
+        li > a:hover {
+            color: blue;
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 2em;
+            text-decoration: underline;
+        }
+        /*This is a hard code fix for a bug that occurred after I added the logo to all the pages, but only affects this
+        page (resources). The navigation bar reverted to having a blank space on top like it did before. This makes it
+        look similar to the other pages but I couldn't get it to be exactly the same. Not sure why it happened, and why
+        only for this page.*/
+        nav{
+            margin-top: -25px;
+        }
+    </style>
+</head>
+<body>
+<!--Navigation Bar-->
+<nav>
+    <div class="nav">
+        <a href="Website%20Home.html"><b>Home</b></a>
+        <a href="FAQ.html"><b>FAQs</b></a>
+        <a href="Map.html"><b>Maps</b></a>
+        <a href="Resources.html"><b>Resources</b></a>
+        <a href="Contact.html"><b>Contact Us</b></a>
+    </div>
+</nav>
+
+<!--Logo-->
+<table id="logo">
+    <tr>
+        <td>
+         <img src="Images/Logo.png" alt="logo" width="100px" height="60px">
+        </td>
+    </tr>
+</table>
+
+<ul>
+    <p>General information</p>
+    <li><a href="https://nyc.gov" target="_blank">NYC official website</a></li>
+    <li><a href="https://www.britannica.com/place/Manhattan-New-York-City" target="_blank">Encyclopedia Britannica -
+        Manhattan</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Manhattan" target="_blank">Wikipedia page</a></li>
+</ul>
+<ul>
+    <p>Travel</p>
+    <li><a href="https://maps.google.com" target="_blank">Google Maps</a></li>
+    <li><a href="https://omny.info/" target="_blank">OMNY website (public transportation)</a></li>
+    <li><a href="https://new.mta.info/maps" target="_blank">MTA maps</a></li>
+    <li><a href="https://www.panynj.gov/port-authority/en/index.html" target="_blank">Port Authority</a></li>
+</ul>
+<ul>
+    <p>Things to do</p>
+    <li><a href="https://nycgo.com" target="_blank">NYC's Guide</a></li>
+    <li><a href="https://nycgovparks.org" target="_blank">NYC Parks - official website</a></li>
+    <li><a href="https://www.tripadvisor.com/Attractions-g60763-Activities-zfn20933769-New_York_City_New_York.html"
+           target="_blank">
+        Top 10 Things To Do in Manhattan
+    </a></li>
+</ul>
+</body>
+</html>
