@@ -12,7 +12,7 @@ setInterval("showTime()", 1000);
 /*This code shows what I was trying to do originally - set the time to Manhattan time, no matter where the browser is opened.
 It ended up showing the number of milliseconds since January 1, 1970 etc, and I know why, but I was not able to turn it
 back into a time. I spent a couple of hours trying to figure it out. In the end, I just decided to have it show the
-current time since it's being opened from NY anyways.
+current time for NYC.
 
 function Time() {
     var d = new Date();
